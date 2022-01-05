@@ -54,7 +54,7 @@
 >`논리적 주소`: 가상 주소로 각 프로세스마다 독립적으로 할당되는 공간<br />
 `물리적 주소`: 실제 물리 메모리에 적재되는 위치를 식별할 수 있는 주소
 
-프로그램이 적재되는 `물리적 메모리의 주소가 언제 결정`되느냐에 따라 세가지 바인딩 방식이 있다.
+프로그램이 적재되는 `물리적 메모리의 주소가 언제 결정`되느냐에 따라 세가지 바인딩 방식이 있다.<br/>
 ![바인딩](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwB1HA%2FbtqNWFAvKUa%2FBkaqT4QxbUYZ8xDFFy3kvk%2Fimg.jpg)<br />
 ### 01. 컴파일(Compile) 타임 바인딩
 - 컴파일 시 물리적 메모리 주소가 결정되는 방식으로, 실행 파일에 물리 주소를 포함
