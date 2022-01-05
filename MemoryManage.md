@@ -142,7 +142,7 @@
 - 메모리 용량보다 큰 프로그램을 실행하기 위해 사용
 - 메모리 이용률과 멀티 프로그래밍의 효율을 높일 수 있다.
 - 블록 단위로 나누어 사용하므로 연속 할당 방식에서 발생할 수 있는 단편화를 해결할 수 있다.
-- 구현 방법에는 페이징 기법이 있다.
+- 구현 방법에는 페이징 기법과 세그멘테이션 기법이 있다.
 
 ## 01. 페이징(Paging)기법
 가상기억장치에 보관되어 있는 프로그램과 주기억장치의 영역을 동일한 크기로 나눈 후 나눠진 프로그램(Page)을 나눠진 주기억장치의 영역에 적재시켜 실행하는 기법
@@ -151,3 +151,23 @@
 - 프레임 단위의 비연속적 메모리 할당으로 **외부 단편화가 없음**.
 - 주소 변환을 위해 어떤 프레임에 저장이 되는지에 관한 위치 정보를 가지고 있는 **Page Table이 필요**하다.<br />
 ![Paging](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fs5fhI%2FbtqAKiruCgN%2FsIoPbQKljmrL0NfJ5eEMKk%2Fimg.png)<br />
+
+## 02. 세그먼테이션(Segmentation)
+서로 다른 크기의 논리적 단위인 세그먼트(Segment)로 분할하여 프로그램을 적재 후 실행하는 기법
+- 각 세그먼트는 고유한 이름과 크기를 갖는다.
+- 가상주소 형식에서 세그먼트번호를 나타내는 s와 실제 내용이 위치하는 위치까지의 거리를 나타내는 변위값 d로 구성된다.
+- 서로 크기가 다른 세그먼트들이 메모리에 적재되고 제거되는 일이 반복되다보면, 가용공간이 많은 수의 작은 조각으로 나누어져 잉여공간이 될 수 있는 외부 단편화가 있음
+
+# Reference
+https://copycode.tistory.com/113
+https://jhnyang.tistory.com/247
+https://naruu098.tistory.com/25
+https://beyndlevel.tistory.com/35
+https://designjava.tistory.com/103
+https://jinhyy.tistory.com/34?category=770230
+https://velog.io/@adam2/OS%EA%B8%B0%EC%B4%88%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC%EC%A3%BC%EC%86%8C-%EB%B0%94%EC%9D%B8%EB%94%A9
+https://goodmilktea.tistory.com/35?category=816729
+https://velog.io/@goban/%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC
+https://sorjfkrh5078.tistory.com/48
+https://velog.io/@deannn/CS-%EA%B8%B0%EC%B4%88-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC-%EC%A0%84%EB%9E%B5
+https://technote-mezza.tistory.com/92
