@@ -71,3 +71,12 @@ UI 백엔드에서 그리기 과정이 끝나면 결과를 화면에 출력
 ```
 의 형태를 가지고 있을 것이다.
 >💡 href의 javascript:void(0);은 아무 작업이 실행되지 않음을 의미한다.
+
+# 📚 Reference
+[Naver D2 - 브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)<br />
+[뺑슨 개발 블로그 - 웹 브라우저는 어떻게 작동하는가?](https://bbangson.tistory.com/87)<br />
+[[웹개발] 브라우저의 작동 원리](https://it-ist.tistory.com/110)<br />
+[tcpschool](http://www.tcpschool.com/webbasic/works)<br />
+[URI & URL](https://velog.io/@jch9537/URI-URL)<br />
+[브라우저와 렌더링 엔진](https://feel5ny.github.io/2018/05/29/rendering_engine_0/)<br />
+[How WebRender gets rid of jank](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/)<br />
