@@ -70,7 +70,6 @@ Upgrade-Insecure-Requests: 1
 - 5xx: 서버가 요청 처리 실패(Server Error)
 
 # 📚Reference
----
 [프런트엔드 개발자가 알아야하는 HTTP 프로토콜](https://joshua1988.github.io/web-development/http-part1/)
 [http의 기본 포트가 80인 이유는 무엇일까?](https://johngrib.github.io/wiki/why-http-80-https-443/)
 [HTTP란 무엇인가?](https://velog.io/@surim014/HTTP%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
