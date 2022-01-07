@@ -158,16 +158,18 @@
 - 가상주소 형식에서 세그먼트번호를 나타내는 s와 실제 내용이 위치하는 위치까지의 거리를 나타내는 변위값 d로 구성된다.
 - 서로 크기가 다른 세그먼트들이 메모리에 적재되고 제거되는 일이 반복되다보면, 가용공간이 많은 수의 작은 조각으로 나누어져 잉여공간이 될 수 있는 외부 단편화가 있음
 
-# Reference
-https://copycode.tistory.com/113
-https://jhnyang.tistory.com/247
-https://naruu098.tistory.com/25
-https://beyndlevel.tistory.com/35
-https://designjava.tistory.com/103
-https://jinhyy.tistory.com/34?category=770230
-https://velog.io/@adam2/OS%EA%B8%B0%EC%B4%88%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC%EC%A3%BC%EC%86%8C-%EB%B0%94%EC%9D%B8%EB%94%A9
-https://goodmilktea.tistory.com/35?category=816729
-https://velog.io/@goban/%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC
-https://sorjfkrh5078.tistory.com/48
-https://velog.io/@deannn/CS-%EA%B8%B0%EC%B4%88-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC-%EC%A0%84%EB%9E%B5
-https://technote-mezza.tistory.com/92
+<br /><br />
+
+# 📚 Reference
+[운영체제 21장-가상메모리-](https://copycode.tistory.com/113)<br />
+[MMU란?](https://jhnyang.tistory.com/247)<br />
+[7.메모리 관리](https://naruu098.tistory.com/25)<br />
+[메모리 관리](https://velog.io/@goban/%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC)<br />
+[메모리 관리란?](https://technote-mezza.tistory.com/92)<br />
+[메모리 관리 전략](https://sorjfkrh5078.tistory.com/48)<br />
+[[CS 기초 - 운영체제] 메모리 관리 전략](https://velog.io/@deannn/CS-%EA%B8%B0%EC%B4%88-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC-%EC%A0%84%EB%9E%B5)<br />
+[main memory: 주소 바인딩에 대해서](https://beyndlevel.tistory.com/35)<br />
+[주소 바인딩](https://designjava.tistory.com/103)<br />
+[[OS기초/메모리 관리] 주소 바인딩](https://velog.io/@adam2/OS%EA%B8%B0%EC%B4%88%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC%EC%A3%BC%EC%86%8C-%EB%B0%94%EC%9D%B8%EB%94%A9)<br />
+[페이징, 세그먼테이션](https://jinhyy.tistory.com/34?category=770230)<br />
+[메모리 관리 기법 - 페이징, 세그멘테이션](https://goodmilktea.tistory.com/35?category=816729)<br />
