@@ -49,3 +49,15 @@ Root DNS는 도메인 네임을 IP 주소로 변환하기 위한 첫 단계다. 
 7. name server DNS는 'www.naver.com'도메인을 직접 관리하기 때문에 IP 주소를 보유하고 있고, 도메인 네임에 대한 IP 주소를 응답해 줌
 8. 응답받은 Local DNS는 'www.naver.com'에 대한 IP 주소를 캐싱하고 IP 주소를 클라이언트 PC에게 반환해줌
 > 💡 이와 같이 Local DNS가 root DNS부터 차례대로 탐색 후 값을 도출하는 과정을 Recursive Query(재귀 쿼리)라고 한다.
+
+<br />
+
+# 📚Reference
+[AWS - DNS란 무엇입니까?](https://aws.amazon.com/ko/route53/what-is-dns/)<br />
+[Cloudflare - DNS란 무엇입니까?](https://www.cloudflare.com/ko-kr/learning/dns/what-is-dns/)<br />
+[HwanShell - DNS에 대한 설명](https://hwan-shell.tistory.com/320)<br />
+[KISA - DNS](https://www.kisa.or.kr/business/address/address3_sub1.jsp)<br />
+[DNS의 구성요소 및 기본 동작 원리](https://itsandtravels.blogspot.com/2018/11/dnsdomain-name-system-dns.html)<br />
+[NETMANIAS - DNS 기본 동작 설명](https://www.netmanias.com/ko/?m=view&id=blog&no=5353)<br />
+[DNS 개념 및 동작 원리](https://ja-gamma.tistory.com/entry/DNS%EA%B0%9C%EB%85%90%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC)<br />
+[DNS, 네임서버 개념정리](https://gentlysallim.com/dns%EB%9E%80-%EB%AD%90%EA%B3%A0-%EB%84%A4%EC%9E%84%EC%84%9C%EB%B2%84%EB%9E%80-%EB%AD%94%EC%A7%80-%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/)<br />
