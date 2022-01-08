@@ -68,6 +68,7 @@ Upgrade-Insecure-Requests: 1
 - 3xx: 요청을 완료하기 위해 추가 수행 필요(Redirection)
 - 4xx: 요청한 자원이 서버에 존재하지 않음(Client Error)
 - 5xx: 서버가 요청 처리 실패(Server Error)
+<br /><br />
 
 # 📚Reference
 [프런트엔드 개발자가 알아야하는 HTTP 프로토콜](https://joshua1988.github.io/web-development/http-part1/)
