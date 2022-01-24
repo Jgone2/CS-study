@@ -22,4 +22,10 @@
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsf1TQx0tHaax8JmsCTiCBMEsGNmegsvYv1g&usqp=CAU)<br />
 <br/>
 쉘의 종류에는 sh, csh(C프로그램 스타일의 Shell), ksh, bash 등이 있다.
+<br /><br />
 
+# 📚 Reference
+리눅스마스터 1급, 지앤선
+[터미널 사용방법](https://nam-ki-bok.github.io/backend/Backend_6/)<br />
+[터미널 사용법 기초](https://yeonduing.tistory.com/19)<br />
+[터미널과 CLI](https://dinfree.com/lecture/core/101_basic_3.html)
