@@ -25,7 +25,7 @@
 <br /><br />
 
 # 📚 Reference
-리눅스마스터 1급, 지앤선
+리눅스마스터 1급, 지앤선<br />
 [터미널 사용방법](https://nam-ki-bok.github.io/backend/Backend_6/)<br />
 [터미널 사용법 기초](https://yeonduing.tistory.com/19)<br />
 [터미널과 CLI](https://dinfree.com/lecture/core/101_basic_3.html)
