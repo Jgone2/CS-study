@@ -7,7 +7,8 @@
 - 하드웨어(HW)와 사용자간의 인터페이스를 담당
 
 <br />
-운영체제의 종류로는 MacOS, Linux, Windows, UNIX, Android, iOS가 대표적이다.
+운영체제의 종류로는 MacOS, Linux, Windows, Android, iOS가 대표적이다.
+<br /><br />
 
 # 2. 운영체제 부팅과정
 
@@ -30,3 +31,7 @@
 - 보안(Protection and Security)
 
 # 📚 Reference
+
+[ROM의 Boot Loader](https://vividswan.github.io/2020/11/01/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-ROM%EC%9D%98-Boot-Loader.html)<br />
+[운영체제의 구조와 원리](https://velog.io/@brian_kim/OS-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EA%B5%AC%EC%A1%B0%EC%99%80-%EC%9B%90%EB%A6%AC)<br />
+[OS의 기본적인 작동 방식](https://choirim.tistory.com/65)<br />
