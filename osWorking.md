@@ -46,11 +46,10 @@
 # 3. 운영체제 작동방식의 발전
 
 DOS와 같은 초기의 운영체제는 하나의 CPU에서 하나의 프로그램만 실행되는 단일 프로그래밍 시스템에서 현재의 빠르고 효율적인 시스템의 운영체제로 발전되어왔다.<br />
-**일괄처리 시스탬 - 다중프로그램 시스템 - 시분할처리 시스템 - 실시간처리 시스템 - 분산처리 시스템 - 병렬처리 시스템**
 
 ## 01. 일괄처리 시스템(Batch System)
 
-![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdQp4a3%2Fbtq4F1ORZCJ%2FPuXBXMfVbR9KNjfDrajSkK%2Fimg.png)<br />
+![](https://media.vlpt.us/images/fredkeemhaus/post/94e5f549-9260-487c-a786-cbfaa41017b7/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-12-25%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%201.40.00.png)<br />
 
 - 유사한 요구를 가지는 작업을 모아 하나의 그룹으로 수행하는 시스템
 - 시스템 지향적(System-Oriented)
@@ -59,22 +58,64 @@ DOS와 같은 초기의 운영체제는 하나의 CPU에서 하나의 프로그�
 - 하나의 CPU로 하나의 작업만 처리 할 수 있어서, 하나의 작업이 끝날 때까지 다른 작업은 대기
 
 ### 장점
+
 - 많은 사용자가 시스템 자원을 공유 할 수 있음
 - 처리 효율(throughput)향상
 
 ### 단점
+
 - 생산성 저하(유사한 작업 요청들을 일정시간 모았다가 한번에 처리하기 때문)
 - 긴 응답시간
 
 ## 02. 다중 프로그램 시스템(Multi-Programmed System)
 
-![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb34vKR%2Fbtq4Ec37UPv%2F7Ukxg6JqAQW7hUBwZRfon1%2Fimg.png)<br />
+![](https://media.vlpt.us/images/fredkeemhaus/post/ac9feae7-68e4-44bf-af47-c0c5a0bf148f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-12-25%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%201.43.15.png)<br />
 
 - 처리해야할 프로세스가 있을 시 수행할 작업을 항상 가지도록 하는 시스템
 - A프로세스에서 입출력을 수행중일 때, B작업에 CPU를 할당해서 처리하는 방식
 - A프로세스에 CPU를 할당해서 작업중인 경우, I/O 장치들을 대기 상태로 만들어서 입출력이 필요한 작업에게 입출력 리소스를 할당
 
+## 03. 시분할 시스템(Time-Sharing System)
 
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fl1AhX%2Fbtq4HIgXRnb%2F5LQRUNKCB9icCpKeGRXRPk%2Fimg.png)<br />
+
+- 아주 짧은 주기로 CPU를 각각의 프로그램에 할당
+- 모든 프로그램이 동시에 작용하고 있다고 느끼게 함(사용자 입장)
+
+### 장점
+
+- 응답시간(response time) 단축
+- 생산성 향상(프로세서 유휴 시간 감소)
+
+### 단점
+
+- 통신 비용 증가(단말기를 통해 접속하기 때문)
+  - 통신선 비용, 보안문제 등
+- 개인 사용자 체감 속도 저하 가능성
+  - (동시 사용자수 ↑) → (시스템 부하 ↑) → (느려짐)
+
+## 04. 실시간 처리 시스템(Real-Time System)
+
+- 작업 처리에 제한시간(deadLine)을 갖는 시스템
+- 즉시적인 처리를 요할 때 사용
+- 제한 시간 내 서비스를 제공하는 것이 자원 활용 효율보다 중요할 때 사용
+- Hard Real-Time System과 Soft Real-Time System나뉨
+
+### 01. Hard Real-Time System
+
+- 시간 제약을 무조건 지켜야 하는 시스템
+- 지키지 못하는 경우 시스템에 치명적 영향
+- 발전소 제어, 무기 제어 같은 엄격한 프로그램
+
+### 02. Soft Real-Time System
+
+- 동영상 재생 등
+
+## 05. 병렬 처리 시스템(Parallel Processing System)
+
+![](https://media.vlpt.us/images/fredkeemhaus/post/d19db7e9-f23d-4614-b495-7a8b7953a143/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-12-25%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%201.52.54.png)<br />
+
+- 
 
 # 📚 Reference
 
