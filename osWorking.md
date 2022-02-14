@@ -24,7 +24,7 @@
 
 <br />
 
-# 02. 운영체제의 역할
+## 02. 운영체제의 역할
 
 - 프로세스 관리(Process Management)
 - 메모리 관리(Memory Management)
@@ -123,11 +123,18 @@ DOS와 같은 초기의 운영체제는 하나의 CPU에서 하나의 프로그�
   - 결합력이 강함
   - 공유 메모리를 차지하려는 프로세스 간의 경쟁 최소화 필요
 
+### 사용목적
+
+- 성능 향상
+- 신뢰성 향상
+  - 부품중 하나가 고장나더라도 다른 부품이 프로세스를 넘겨받아 처리할 수 있어 정상 동작 가능
+
 ## 06. 분산 처리 시스템(Distributed Processing System)
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBB22D%2Fbtq4ILYt3xh%2FdfcfVLRqwohAYdhaKyAcIk%2Fimg.jpg)<br />
 
 - 네트워크를 기반으로 구축된 병렬처리기반 시스템(Loosely-Coupled System, 약결합 시스템)
+
   - 각 프로세스마다 독립된 메모리를 가진 시스템
   - 둘 이상의 독립된 컴퓨터 시스템을 네트워크를 이용해 연결한 시스템
   - 각 시스템마다 독자적인 운영체제 가지고 있음
@@ -139,11 +146,13 @@ DOS와 같은 초기의 운영체제는 하나의 CPU에서 하나의 프로그�
 - CPU들은 메모리들을 공휴하지 않음.
 
 ### 장점
+
 - 자원 공유를 통한 높은 성능
 - 신뢰성이 높음
 - 높은 확장성
 
 ## 단점
+
 - 구축 및 관리가 어려움
 
 # 📚 Reference
