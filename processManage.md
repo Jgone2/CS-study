@@ -175,3 +175,11 @@
 ![](https://mblogthumb-phinf.pstatic.net/20120626_114/rlaauddlf200_1340636474963qe7SM_PNG/2.png?type=w2)<br />
 
 - 다단계 피드백 큐: 다단계 큐 방식을 기본방식으로 timeout시 우선순위가 낮은 다음단계 큐로 이동
+
+# 📚 Reference
+
+[Process management](https://github.com/jx-dohwan/CS/blob/main/Process%20management.md)<br />
+[5.프로세스 관리](https://velog.io/@codemcd/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9COS-5.-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC)<br />
+[프로세스의 개요](https://velog.io/@mainxcharacter/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%9D%98-%EA%B0%9C%EC%9A%94)<br />
+[프로세스 스케줄링이란?](https://junsday.tistory.com/28?category=897242)<br />
+[비선점 or 선점형 스케줄링](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rlaauddlf200&logNo=30141162460)
