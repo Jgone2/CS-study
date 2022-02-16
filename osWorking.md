@@ -189,11 +189,11 @@ DOS와 같은 초기의 운영체제는 하나의 CPU에서 하나의 프로그�
 
 ## 02. H/W interrupt
 
-- CPU외부의 하드웨어로 부터 
+- CPU외부의 하드웨어로 부터
 
 ## 03. S/W interrupt
 
-- 
+-
 
 # 📚 Reference
 
@@ -202,3 +202,6 @@ DOS와 같은 초기의 운영체제는 하나의 CPU에서 하나의 프로그�
 [OS의 기본적인 작동 방식](https://choirim.tistory.com/65)<br />
 [운영체제의 구조 및 동작원리](https://baked-corn.tistory.com/3)<br />
 [[정의]Loosely Coupled vs. Tightly Coupled](https://akawarren.tistory.com/27)<br />
+[인터럽트, 예외, 트랩의 비교](http://melonicedlatte.com/computerarchitecture/2019/02/12/213856.html)<br />
+[인터럽트 제대로 이해하기](https://velog.io/@adam2/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8)<br />
+[OS Overview](https://velog.io/@fredkeemhaus/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-Lecture-2.-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%97%AD%ED%95%A0#%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%9D%98-%EA%B5%AC%EB%B6%84)<br />
