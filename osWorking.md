@@ -194,7 +194,7 @@ DOS와 같은 초기의 운영체제는 하나의 CPU에서 하나의 프로그�
 
 ## 03. S/W interrupt
 
--
+-wwxw
 
 # 📚 Reference
 
