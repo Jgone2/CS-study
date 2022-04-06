@@ -94,12 +94,20 @@ HTTP 프로토콜로 데이터를 주고받기 위해서는 아래와 같이 **�
 요청을 수행할 때는 HTTP 요청 메서드를(HTTP Request Methods)를 사용한다.
 HTTP 요청 메서드는 HTTP Verbs라고도 불리며, 아래와 같은 주요 메서드를 가지고 있다.
 
-- **GET**: 자원에 대한 **요청**
-- **POST:** 새로운 자원을 **생성**
-- **PUT**: 자원에 대한 **전체 변경/수정**
-- **DELETE**: 자원에 대한 **삭제**
-- **PATCH**: 자원에 대한 **일부 변경/수정**(Update와 비슷하게 쓰인다.)
-- **OPTIONS**: 서버에서 지원하는 메소드 확인. [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)에서 사용된다.
+### 주요 메서드
+
+- **GET**: 리소스 **조회, 요청**
+- **POST:** 요청 데이터 **처리**, 새로운 리소스 **생성, 등록**
+- **PUT**: 리소스 **전체 변경/수정/대체**, 해당 리소스가 없으면 생성
+- **PATCH**: 리소스 **일부 변경/수정**(Update와 비슷하게 쓰인다.)
+- **DELETE**: 리소스 **삭제**
+
+### 기타 메서드
+
+- **HEAD**: GET과 동일하지만 메시지 부분을 제외하고, 상태 줄과 헤더만 반환
+- **OPTIONS**: 대상 리소스에 대한 서버에서 지원하는 메소드 확인. [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)에서 사용된다.
+- **CONNECT**: 대상 자원으로 식별되는 서버에 대한 터널 설정
+- **TRACE**: 대상 리소스에 대한 경로를 따라 메시지 루프백 테스트 수행
 
 HTTP 요청 메서드에서도 영역을 나눌 수 있다.
 
@@ -138,9 +146,9 @@ Upgrade-Insecure-Requests: 1
 `상태 코드`는 서버가 클라이언트에게 응답의 상태를 알리는 수단이며, 크게 **다섯가지** 클래스로 분류된다.
 
 - 1xx: 요청 정보 처리중(Informational)
-- 2xx: 요청을 정상적으로 처리(Success)
+- `2xx`: 요청을 정상적으로 처리(Success)
 - 3xx: 요청을 완료하기 위해 추가 수행 필요(Redirection)
-- 4xx: 요청한 자원이 서버에 존재하지 않음(Client Error)
+- `4xx`: 요청한 자원이 서버에 존재하지 않음(Client Error)
 - 5xx: 서버가 요청 처리 실패(Server Error)
   <br /><br />
 
