@@ -74,6 +74,8 @@
 
 # 5. 메모리 관리 장치(Memory Management Unit, MMU)
 ![MMU](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdGS2qq%2FbtqAJwDhpJK%2FoPVkHdYvn3aSi7PL7luuZ1%2Fimg.png)<br />
+- CPU가 생성하는 주소를 `논리 주소`
+- 메모리가 취급하게 되는 주소(즉, 메모리 주소 레지스터(MAR)에 적재되는 주소)를 `물리 주소`
 - 프로세스의 논리 주소에 재배치 레지스터 값을 더함으로써 실제 메모리의 물리 주소로 변환하는 역할을 수행
 - 재배치 레지스터를 사용함으로써 물리 주소는 실행 중에 얼마든지 변경될 수 있다.
 
